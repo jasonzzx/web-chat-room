@@ -1,2 +1,2 @@
 # web-chat-room
-Web chat application
+Web chat application. With VUE framework
