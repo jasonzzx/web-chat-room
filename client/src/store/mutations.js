@@ -24,5 +24,5 @@ export default {
 
     state.messages = [];
     state.hasJoined = false;
-  }
+  },
 };
