@@ -23,6 +23,14 @@ module.exports = {
 
     'no-param-reassign': 0,
 
+    'import/no-dynamic-require': 0,
+
+    // don't require .vue extension when importing
+    'import/extensions': ['error', 'always', {
+      'js': 'never',
+      'vue': 'never'
+    }],
+
     // allow paren-less arrow functions
     'arrow-parens': 0,
     // allow async-await
