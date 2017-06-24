@@ -1,11 +1,11 @@
 export default [
     {
-      path： '/join',
+      path: '/join',
       name: 'join.index',
       component: resolve => require(['./../pages/join/index.vue'], resolve),
     },
     {
-      path： '/room',
+      path: '/room',
       name: 'room.index',
       component: resolve => require(['./../pages/room/index.vue'], resolve),
     },

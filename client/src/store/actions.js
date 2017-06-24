@@ -1,4 +1,4 @@
-import * as types from './mutation_types';
+import types from './mutation-types';
 
 export const sendMessage = ({ commit }, payload) => {
   commit(types.SEND_MESSAGE, payload );

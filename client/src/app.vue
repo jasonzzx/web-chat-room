@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    Hello World!
+    Hello World!!
     <input
       type="text"
       v-model="message"
@@ -28,8 +28,8 @@
       };
     },
 
-    methods:{
-      addMessage(){
+    methods: {
+      addMessage() {
         this.$store.dispatch('newMessage', message);
       }
     },
